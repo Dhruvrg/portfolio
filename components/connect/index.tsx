@@ -1,4 +1,3 @@
-import { InlineWidget } from 'react-calendly';
 import { socialMedia } from 'data/socialMedia';
 
 export default function Connect(): JSX.Element {
