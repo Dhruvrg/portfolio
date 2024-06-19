@@ -1,3 +1,4 @@
+//@typescript-eslint/no-explicit-any
 import { ProjectCard } from '@shared-components';
 import { useEffect, useState } from 'react';
 import { projectDetails } from 'data/projectDetails';
@@ -13,7 +14,7 @@ const ProjectsPage = (): JSX.Element => {
   );
   const [active, setActive] = useState('all');
 
-  function changeProjects(c: any) {
+  function changeProjects(c) {
     setActive(c.value);
   }
   useEffect(() => {}, [active]);
