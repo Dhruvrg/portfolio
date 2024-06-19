@@ -1,23 +1,34 @@
-//@typescript-eslint/no-explicit-any
+// @typescript-eslint/no-explicit-any
 import { ProjectCard } from '@shared-components';
 import { useEffect, useState } from 'react';
 import { projectDetails } from 'data/projectDetails';
 import { Project } from 'shared/utils/types';
 
+// Define a type for category
+interface Category {
+  value: string;
+  label: string;
+}
+
 const ProjectsPage = (): JSX.Element => {
-  const category = [{ value: 'all', label: 'ALL' }];
+  const category: Category[] = [{ value: 'all', label: 'ALL' }];
+
   projectDetails.forEach((p) =>
     p.category.forEach((cat) => {
-      if (!category.find((c) => c.value === cat))
+      if (!category.find((c) => c.value === cat)) {
         category.push({ value: cat, label: cat.toUpperCase() });
+      }
     })
   );
+
   const [active, setActive] = useState('all');
 
-  function changeProjects(c) {
+  function changeProjects(c: Category) {
     setActive(c.value);
   }
+
   useEffect(() => {}, [active]);
+
   return (
     <>
       <div className="bg-blue pt-28 pb-20">

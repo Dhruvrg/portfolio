@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 export const projectDetails = [
   {
     slug: 'my-keepdataonline-project',

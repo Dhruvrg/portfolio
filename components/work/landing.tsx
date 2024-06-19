@@ -1,8 +1,8 @@
 /* eslint-disable react/no-array-index-key */
 import { HeaderSmall } from '@shared-components';
 import { Company } from 'shared/utils/types';
-import Details from './details';
 import { companyDetails } from 'data/companyDetails';
+import Details from './details';
 
 export default function Landing(): JSX.Element {
   return (

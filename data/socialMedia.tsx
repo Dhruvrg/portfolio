@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 export const socialMedia = [
   {
     link: 'https://www.linkedin.com/in/dhruv-gharat-43b156200/',
