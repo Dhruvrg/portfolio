@@ -1,5 +1,5 @@
 import { ProjectCard } from '@shared-components';
-import { useContext, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { projectDetails } from 'data/projectDetails';
 import { Project } from 'shared/utils/types';
 
@@ -13,7 +13,7 @@ const ProjectsPage = (): JSX.Element => {
   );
   const [active, setActive] = useState('all');
 
-  function changeProjects(c) {
+  function changeProjects(c: any) {
     setActive(c.value);
   }
   useEffect(() => {}, [active]);

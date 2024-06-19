@@ -2,8 +2,8 @@
 /* eslint-disable consistent-return */
 
 import { useEffect, useState } from 'react';
-import CompanyDetails from './company-details';
 import { companyDetails } from 'data/companyDetails';
+import CompanyDetails from './company-details';
 
 export default function Details(): JSX.Element {
   const [activeIndex, setActiveIndex] = useState(0);
