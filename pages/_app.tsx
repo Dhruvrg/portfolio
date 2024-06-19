@@ -39,31 +39,31 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
   return (
     <div>
       <Head>
-        <title>Harsh Goel | Software Developer</title>
-        <meta name="title" content="Harsh Goel | Software Developer" />
+        <title>Dhruv Gharat</title>
+        <meta name="title" content="Dhruv Gharat" />
         <meta
           name="description"
-          content="Harsh is a full stack developer who crafts beautiful web-apps, chrome extensions and apps."
+          content="Dhruv is a full stack developer who crafts beautiful web-apps and apps."
         />
         <meta
           name="keywords"
-          content="Harsh is a full stack developer who crafts beautiful web-apps, chrome extensions and apps."
+          content="Dhruv is a full stack developer who crafts beautiful web-apps and apps."
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="10 days" />
-        <meta name="author" content="Harsh Goel" />
-        <meta name="copyright" content="All rights reserved,2021. Harsh Goel" />
+        <meta name="author" content="Dhruv Gharat" />
+        <meta name="copyright" content="All rights reserved,2021. Dhruv Gharat" />
         <meta httpEquiv="content-language" content="en" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://harshgoel.me/" />
-        <meta property="og:title" content="Harsh Goel | Software Developer" />
+        <meta property="og:url" content="https://dhruvgharat.me/" />
+        <meta property="og:title" content="Dhruv Gharat" />
         <meta
           property="og:description"
-          content="Harsh is a full stack developer who crafts beautiful web-apps, chrome extensions and apps."
+          content="Dhruv is a full stack developer who crafts beautiful web-apps and apps."
         />
         <meta
           property="og:image"
@@ -72,12 +72,12 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://harshgoel.me/" />
-        <meta property="twitter:site" content="@harshgoel05" />
-        <meta property="twitter:title" content="Harsh Goel | Software Developer" />
+        <meta property="twitter:url" content="https://dhruvgharat.me/" />
+        <meta property="twitter:site" content="@dhruvgharat" />
+        <meta property="twitter:title" content="Dhruv Gharat" />
         <meta
           property="twitter:description"
-          content="Harsh is a full stack developer who crafts beautiful web-apps, chrome extensions and apps."
+          content="Dhruv is a full stack developer who crafts beautiful web-apps and apps."
         />
         {/* Use Billboard to get an OG Image */}
         <meta

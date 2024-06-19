@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"404.tsx -> ../components/notfound/index\":{\"id\":\"404.tsx -> ../components/notfound/index\",\"files\":[\"static/chunks/components_notfound_index_tsx.js\"]},\"index.tsx -> ../components/home/index\":{\"id\":\"index.tsx -> ../components/home/index\",\"files\":[\"static/chunks/components_home_index_tsx.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{\"index.tsx -> ../components/home/index\":{\"id\":\"index.tsx -> ../components/home/index\",\"files\":[\"static/chunks/components_home_index_tsx.js\"]}}"

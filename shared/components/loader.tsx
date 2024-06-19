@@ -6,7 +6,7 @@ export default function Loader(): JSX.Element {
         <img
           className="animate-bounce transition-all"
           src="/images/logo-light.svg"
-          alt="Harsh Logo"
+          alt="Dhruv Logo"
         />
         <hr className="transition-all animate-changewidth duration-1000 absolute right-0 top-1/2" />
       </div>

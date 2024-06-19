@@ -1,11 +1,11 @@
 {
-  "name": "harsh-web-3",
+  "name": "dhruv-web-3",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Harsh Goel",
-    "email": "harshgoel05@gmail.com",
-    "url": "https://harshgoel.me"
+    "name": "Dhruv Goel",
+    "email": "dhruvrg2003@gmail.com",
+    "url": "https://dhruvgharat.me"
   },
   "scripts": {
     "dev": "next dev",
